@@ -1,3 +1,8 @@
+#AIM:
+#Health guru weight loss program: Check the validity of program using null hypothesis.
+
+#SOLUTION:
+
 # a) Load the sample data (example in kg)
 weights_before <- c(85, 90, 78, 92, 88, 95, 100, 76, 84, 89)
 weights_after  <- c(80, 85, 74, 86, 84, 91, 95, 72, 80, 84)
