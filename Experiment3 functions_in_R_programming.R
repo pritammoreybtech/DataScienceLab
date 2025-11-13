@@ -1,3 +1,18 @@
+#Aim:
+
+#To study useful functions in R Programming  
+#a) Find what arguments the sample () function takes.  
+#b) Demonstrate any real world scenario by writing the code using sample() function.  
+#c) Find out what arguments the median function takes. While calling the median for the lvl object, try setting the na.rm = argument to TRUE.   
+#d) Does R return a different value from the one when na.rm = is set to FALSE (NB: the default value for the na.rm = argument is FALSE; this means that whenever we do not explicitly specify that it must be set to TRUE, it is set to FALSE)?   
+#e) How which() function is useful?  
+#f) Creates a frequency table of categorical data.  
+#g) Demonstrate the utility of subset() function.   
+#h) Demonstrate the utility ifelse() function.  
+#i) Apply ggplot() function on the iris dataset.  
+
+#SOLUTION:
+
 #a)Find what arguments the sample() function takes
 args(sample)
 
@@ -68,6 +83,7 @@ ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
   labs(title = "Sepal Dimensions by Species",
        x = "Sepal Length",
        y = "Sepal Width") 
+
 
 
 
