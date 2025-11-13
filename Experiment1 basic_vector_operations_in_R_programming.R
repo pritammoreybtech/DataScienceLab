@@ -1,21 +1,22 @@
-/*
-**AIM:** To study Basic Vector Operations in R Programming.  
-Create a vector x storing the sequence 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.  
-a) Add 2 to it. Save the result into a variable called y.  
-b) Multiply y by 3. Save that into a variable called z.   
-c) Subtract 6 from z and divide the result by 3. Save what you get into a variable called answer.   
-d) Print your answer variable.  
-e) Try to do the entire operation in a single line of code.   
-f) What do you need to do to get the same result?   
-g) Do you notice anything about the operations? Do they follow a specific order; how are they carried out?  
-h) Create the following vectors in R using seq()  
-(i) 1,1.5, 2, 2.5, …..,12 (ii) 1, 8, 27, 64,……,1000.  
-i) Write a R program to count the specific value in a given vector.  
-j) Write a R program to find common elements from multiple vectors.  
-k) Create the vectors in R Programming (1,2,3,...,19,20,19,18,...,2,1)  
-m) quotes <- c("Data is the new oil", "Big data means big responsibility", "Clean data is gold")  
-Check which sentences contain the word "data" using grepl().    
-*/
+#AIM
+#To study Basic Vector Operations in R Programming.  
+#Create a vector x storing the sequence 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.  
+#a) Add 2 to it. Save the result into a variable called y.  
+#b) Multiply y by 3. Save that into a variable called z.   
+#c) Subtract 6 from z and divide the result by 3. Save what you get into a variable called answer.   
+#d) Print your answer variable.  
+#e) Try to do the entire operation in a single line of code.   
+#f) What do you need to do to get the same result?   
+#g) Do you notice anything about the operations? Do they follow a specific order; how are they carried out?  
+#h) Create the following vectors in R using seq()  
+#i) 1,1.5, 2, 2.5, …..,12 (ii) 1, 8, 27, 64,……,1000.  
+#i) Write a R program to count the specific value in a given vector.  
+#j) Write a R program to find common elements from multiple vectors.  
+#k) Create the vectors in R Programming (1,2,3,...,19,20,19,18,...,2,1)  
+#m) quotes <- c("Data is the new oil", "Big data means big responsibility", "Clean data is gold")  
+#Check which sentences contain the word "data" using grepl().    
+
+#SOLUTION
 #Create a vector x storing the sequence 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.
 x<-10:20
 print(x)
@@ -71,6 +72,7 @@ print(v)
 quotes <- c("Data is the new oil", "Big data means big responsibility", "Clean data is gold")
 contains_data <- grepl("data", quotes, ignore.case = TRUE)
 print(contains_data)
+
 
 
 
